@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BF8CBFA1759289300C34DD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF8CBF91759289300C34DD6 /* UIKit.framework */; };
+		8BF8CBFC1759289300C34DD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF8CBFB1759289300C34DD6 /* Foundation.framework */; };
+		8BF8CBFE1759289300C34DD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF8CBFD1759289300C34DD6 /* CoreGraphics.framework */; };
+		8BF8CC041759289300C34DD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8CC021759289300C34DD6 /* InfoPlist.strings */; };
+		8BF8CC061759289300C34DD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8CC051759289300C34DD6 /* main.m */; };
+		8BF8CC0A1759289300C34DD6 /* RSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8CC091759289300C34DD6 /* RSTAppDelegate.m */; };
+		8BF8CC0C1759289300C34DD6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8CC0B1759289300C34DD6 /* Default.png */; };
+		8BF8CC0E1759289300C34DD6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8CC0D1759289300C34DD6 /* Default@2x.png */; };
+		8BF8CC101759289300C34DD6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8CC0F1759289300C34DD6 /* Default-568h@2x.png */; };
+		8BF8CC131759289300C34DD6 /* RSTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8CC121759289300C34DD6 /* RSTFirstViewController.m */; };
+		8BF8CC151759289300C34DD6 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8CC141759289300C34DD6 /* first.png */; };
+		8BF8CC171759289300C34DD6 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8CC161759289300C34DD6 /* first@2x.png */; };
+		8BF8CC1A1759289300C34DD6 /* RSTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8CC191759289300C34DD6 /* RSTSecondViewController.m */; };
+		8BF8CC1C1759289300C34DD6 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8CC1B1759289300C34DD6 /* second.png */; };
+		8BF8CC1E1759289300C34DD6 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8CC1D1759289300C34DD6 /* second@2x.png */; };
+		8BF8CC211759289300C34DD6 /* RSTFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8CC1F1759289300C34DD6 /* RSTFirstViewController.xib */; };
+		8BF8CC241759289300C34DD6 /* RSTSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8CC221759289300C34DD6 /* RSTSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BF8CBF61759289300C34DD6 /* GovBids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GovBids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF8CBF91759289300C34DD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BF8CBFB1759289300C34DD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BF8CBFD1759289300C34DD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BF8CC011759289300C34DD6 /* GovBids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GovBids-Info.plist"; sourceTree = "<group>"; };
+		8BF8CC031759289300C34DD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BF8CC051759289300C34DD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BF8CC071759289300C34DD6 /* GovBids-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GovBids-Prefix.pch"; sourceTree = "<group>"; };
+		8BF8CC081759289300C34DD6 /* RSTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSTAppDelegate.h; sourceTree = "<group>"; };
+		8BF8CC091759289300C34DD6 /* RSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSTAppDelegate.m; sourceTree = "<group>"; };
+		8BF8CC0B1759289300C34DD6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8BF8CC0D1759289300C34DD6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8BF8CC0F1759289300C34DD6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8BF8CC111759289300C34DD6 /* RSTFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSTFirstViewController.h; sourceTree = "<group>"; };
+		8BF8CC121759289300C34DD6 /* RSTFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSTFirstViewController.m; sourceTree = "<group>"; };
+		8BF8CC141759289300C34DD6 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8BF8CC161759289300C34DD6 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8BF8CC181759289300C34DD6 /* RSTSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSTSecondViewController.h; sourceTree = "<group>"; };
+		8BF8CC191759289300C34DD6 /* RSTSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSTSecondViewController.m; sourceTree = "<group>"; };
+		8BF8CC1B1759289300C34DD6 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8BF8CC1D1759289300C34DD6 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		8BF8CC201759289300C34DD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RSTFirstViewController.xib; sourceTree = "<group>"; };
+		8BF8CC231759289300C34DD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RSTSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BF8CBF31759289300C34DD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF8CBFA1759289300C34DD6 /* UIKit.framework in Frameworks */,
+				8BF8CBFC1759289300C34DD6 /* Foundation.framework in Frameworks */,
+				8BF8CBFE1759289300C34DD6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BF8CBED1759289300C34DD6 = {
+			isa = PBXGroup;
+			children = (
+				8BF8CBFF1759289300C34DD6 /* GovBids */,
+				8BF8CBF81759289300C34DD6 /* Frameworks */,
+				8BF8CBF71759289300C34DD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BF8CBF71759289300C34DD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8CBF61759289300C34DD6 /* GovBids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BF8CBF81759289300C34DD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8CBF91759289300C34DD6 /* UIKit.framework */,
+				8BF8CBFB1759289300C34DD6 /* Foundation.framework */,
+				8BF8CBFD1759289300C34DD6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BF8CBFF1759289300C34DD6 /* GovBids */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8CC081759289300C34DD6 /* RSTAppDelegate.h */,
+				8BF8CC091759289300C34DD6 /* RSTAppDelegate.m */,
+				8BF8CC111759289300C34DD6 /* RSTFirstViewController.h */,
+				8BF8CC121759289300C34DD6 /* RSTFirstViewController.m */,
+				8BF8CC141759289300C34DD6 /* first.png */,
+				8BF8CC161759289300C34DD6 /* first@2x.png */,
+				8BF8CC181759289300C34DD6 /* RSTSecondViewController.h */,
+				8BF8CC191759289300C34DD6 /* RSTSecondViewController.m */,
+				8BF8CC1B1759289300C34DD6 /* second.png */,
+				8BF8CC1D1759289300C34DD6 /* second@2x.png */,
+				8BF8CC1F1759289300C34DD6 /* RSTFirstViewController.xib */,
+				8BF8CC221759289300C34DD6 /* RSTSecondViewController.xib */,
+				8BF8CC001759289300C34DD6 /* Supporting Files */,
+			);
+			path = GovBids;
+			sourceTree = "<group>";
+		};
+		8BF8CC001759289300C34DD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8CC011759289300C34DD6 /* GovBids-Info.plist */,
+				8BF8CC021759289300C34DD6 /* InfoPlist.strings */,
+				8BF8CC051759289300C34DD6 /* main.m */,
+				8BF8CC071759289300C34DD6 /* GovBids-Prefix.pch */,
+				8BF8CC0B1759289300C34DD6 /* Default.png */,
+				8BF8CC0D1759289300C34DD6 /* Default@2x.png */,
+				8BF8CC0F1759289300C34DD6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BF8CBF51759289300C34DD6 /* GovBids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF8CC271759289300C34DD6 /* Build configuration list for PBXNativeTarget "GovBids" */;
+			buildPhases = (
+				8BF8CBF21759289300C34DD6 /* Sources */,
+				8BF8CBF31759289300C34DD6 /* Frameworks */,
+				8BF8CBF41759289300C34DD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GovBids;
+			productName = GovBids;
+			productReference = 8BF8CBF61759289300C34DD6 /* GovBids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BF8CBEE1759289300C34DD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RST;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = com.rstgov;
+			};
+			buildConfigurationList = 8BF8CBF11759289300C34DD6 /* Build configuration list for PBXProject "GovBids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BF8CBED1759289300C34DD6;
+			productRefGroup = 8BF8CBF71759289300C34DD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BF8CBF51759289300C34DD6 /* GovBids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BF8CBF41759289300C34DD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF8CC041759289300C34DD6 /* InfoPlist.strings in Resources */,
+				8BF8CC0C1759289300C34DD6 /* Default.png in Resources */,
+				8BF8CC0E1759289300C34DD6 /* Default@2x.png in Resources */,
+				8BF8CC101759289300C34DD6 /* Default-568h@2x.png in Resources */,
+				8BF8CC151759289300C34DD6 /* first.png in Resources */,
+				8BF8CC171759289300C34DD6 /* first@2x.png in Resources */,
+				8BF8CC1C1759289300C34DD6 /* second.png in Resources */,
+				8BF8CC1E1759289300C34DD6 /* second@2x.png in Resources */,
+				8BF8CC211759289300C34DD6 /* RSTFirstViewController.xib in Resources */,
+				8BF8CC241759289300C34DD6 /* RSTSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BF8CBF21759289300C34DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF8CC061759289300C34DD6 /* main.m in Sources */,
+				8BF8CC0A1759289300C34DD6 /* RSTAppDelegate.m in Sources */,
+				8BF8CC131759289300C34DD6 /* RSTFirstViewController.m in Sources */,
+				8BF8CC1A1759289300C34DD6 /* RSTSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BF8CC021759289300C34DD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF8CC031759289300C34DD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BF8CC1F1759289300C34DD6 /* RSTFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF8CC201759289300C34DD6 /* en */,
+			);
+			name = RSTFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		8BF8CC221759289300C34DD6 /* RSTSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF8CC231759289300C34DD6 /* en */,
+			);
+			name = RSTSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BF8CC251759289300C34DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BF8CC261759289300C34DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BF8CC281759289300C34DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GovBids/GovBids-Prefix.pch";
+				INFOPLIST_FILE = "GovBids/GovBids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BF8CC291759289300C34DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GovBids/GovBids-Prefix.pch";
+				INFOPLIST_FILE = "GovBids/GovBids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BF8CBF11759289300C34DD6 /* Build configuration list for PBXProject "GovBids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF8CC251759289300C34DD6 /* Debug */,
+				8BF8CC261759289300C34DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF8CC271759289300C34DD6 /* Build configuration list for PBXNativeTarget "GovBids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF8CC281759289300C34DD6 /* Debug */,
+				8BF8CC291759289300C34DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BF8CBEE1759289300C34DD6 /* Project object */;
+}
